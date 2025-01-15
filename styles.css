@@ -3,19 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
 }
 
 header {
-    background-color: #333;
+    background-color: #222; /* Slightly lighter black for header */
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #444;
+    background-color: #333; /* Dark gray navigation bar */
     padding: 10px;
     text-align: center;
 }
@@ -27,13 +27,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #555; /* Darker gray on hover */
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #fff;
+    background-color: #222; /* Dark gray background for sections */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -41,7 +41,7 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #222; /* Same as header and section background */
     color: #fff;
 }
 
@@ -68,9 +68,10 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #1E90FF; /* Blue color for links */
 }
 
 ul li a:hover {
     text-decoration: underline;
+    color: #FF6347; /* Change link color on hover */
 }
